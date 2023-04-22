@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script type="text/javascript" src=""></script>
+</head>
+<body>
+    <h1 class="box-title text-light">Apply Now</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="box equal">
+<div class="box-body">
+<div class="container mid">
+<h3 class="box-title">Admission Application</h3>
+<div class="divider"></div>
+<div class="box-subheading " style="color: #e31d23!important;">Please fill out the following form to apply for admission to Star Infotech College.</div>
+</div>
+</div>
+</div>
+<div class="box equal bg-grey">
+<div class="box-body">
+<div class="container mid">
+<form method="post" action="https://www.starinfotechcollege.com/Home/mailingStudentDetails" enctype="multipart/form-data" class="form" style="text-align: left; width: 100%; margin-bottom: 1em;">
+    <h3 class="box-subheading">Basic Details</h3>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_name" class="form-group">
+                <label for="id_name" class="requiredField"> Student Name<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="name" maxlength="255" class="textinput textInput form-control" required id="id_name" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_email" class="form-group">
+                <label for="id_email" class="requiredField"> Email Address<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="email" name="email" maxlength="255" class="emailinput form-control" required id="id_email" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_mobile" class="form-group">
+                <label for="id_mobile" class="requiredField"> Mobile<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="mobile" maxlength="13" class="textinput textInput form-control" required id="id_mobile" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_course" class="form-group">
+                <label for="id_course" class="requiredField"> Course Interested<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="course" class="select form-control" required id="id_course">
+                        <option value="" selected>---------</option>
+
+                        <option value="BCA">BCA</option>
+
+                        <option value="MCA">MCA</option>
+
+                        <option value="Msc. (IT)">Msc. (IT)</option>
+
+                        <option value="Salesforce">Salesforce</option>
+
+                        <option value="icst">icst</option>
+
+                        <option value="Adv. PHP">Adv. PHP</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_adhar" class="form-group">
+                <label for="id_adhar" class="requiredField"> Aadhar<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="adhar" maxlength="13" class="textinput textInput form-control" required id="id_adhar" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_date_of_birth" class="form-group">
+                <label for="id_date_of_birth" class="requiredField"> Date of birth<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <div class="input-group" id="div_id_date_of_birth" data-target-input="nearest">
+                        <input type="date" name="date_of_birth" autocomplete="off" class="datepicker form-control datetimepicker-input" required="True" id="id_date_of_birth" data-toggle="datetimepicker" data-target="#id_date_of_birth" />
+                    </div>
+
+                    <script type="text/javascript">
+                        function deferDateTimePicker_id_date_of_birth() {
+                            if (window.jQuery && $.fn.datetimepicker) {
+                                $("#id_date_of_birth").datetimepicker({ format: "YYYY-MM-DD", icons: { time: "fa fa-clock-o" } });
+                            } else {
+                                setTimeout(function () {
+                                    deferDateTimePicker_id_date_of_birth();
+                                }, 50);
+                            }
+                        }
+
+                        deferDateTimePicker_id_date_of_birth();
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_gender" class="form-group">
+                <label for="id_gender" class="requiredField"> Gender<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="gender" class="select form-control" required id="id_gender">
+                        <option value="" selected>---------</option>
+
+                        <option value="Male">Male</option>
+
+                        <option value="Female">Female</option>
+
+                        <option value="trangender">Transgender</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_categorie" class="form-group">
+                <label for="id_categorie" class="requiredField">Category<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="categorie" class="select form-control" required id="id_categorie">
+                        <option value="" selected>---------</option>
+
+                        <option value="GEN">GEN</option>
+
+                        <option value="OBC">OBC</option>
+
+                        <option value="SC/ST">SC/ST</option>
+
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_religion" class="form-group">
+                <label for="id_religion" class="requiredField"> Religion<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="religion" class="select form-control" required id="id_religion">
+                        <option value="" selected>---------</option>
+
+                        <option value="Hindu">Hindu</option>
+
+                        <option value="Muslim">Muslim</option>
+
+                        <option value="Christian">Christian</option>
+
+                        <option value="Sikh">Sikh</option>
+
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+    <h3 class="box-subheading">Family Details</h3>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_father_name" class="form-group">
+                <label for="id_father_name" class="">
+                    Father name
+                </label>
+
+                <div class="">
+                    <input type="text" name="father_name" maxlength="255" class="textinput textInput form-control" id="id_father_name" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_father_mobile" class="form-group">
+                <label for="id_father_mobile" class="">
+                    Father mobile
+                </label>
+
+                <div class="">
+                    <input type="text" name="father_mobile" maxlength="255" class="textinput textInput form-control" id="id_father_mobile" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_father_profession" class="form-group">
+                <label for="id_father_profession" class="">
+                    Father profession
+                </label>
+
+                <div class="">
+                    <input type="text" name="father_profession" maxlength="255" class="textinput textInput form-control" id="id_father_profession" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_mother_name" class="form-group">
+                <label for="id_mother_name" class="">
+                    Mother name
+                </label>
+
+                <div class="">
+                    <input type="text" name="mother_name" maxlength="255" class="textinput textInput form-control" id="id_mother_name" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_mother_mobile" class="form-group">
+                <label for="id_mother_mobile" class="">
+                    Mother mobile
+                </label>
+
+                <div class="">
+                    <input type="text" name="mother_mobile" maxlength="255" class="textinput textInput form-control" id="id_mother_mobile" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_mother_profession" class="form-group">
+                <label for="id_mother_profession" class="">
+                    Mother profession
+                </label>
+
+                <div class="">
+                    <input type="text" name="mother_profession" maxlength="255" class="textinput textInput form-control" id="id_mother_profession" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_guardian_name" class="form-group">
+                <label for="id_guardian_name" class="">
+                    Guardian name
+                </label>
+
+                <div class="">
+                    <input type="text" name="guardian_name" maxlength="255" class="textinput textInput form-control" id="id_guardian_name" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_guardian_mobile" class="form-group">
+                <label for="id_guardian_mobile" class="">
+                    Guardian mobile
+                </label>
+
+                <div class="">
+                    <input type="text" name="guardian_mobile" maxlength="255" class="textinput textInput form-control" id="id_guardian_mobile" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_guardian_profession" class="form-group">
+                <label for="id_guardian_profession" class="">
+                    Guardian profession
+                </label>
+
+                <div class="">
+                    <input type="text" name="guardian_profession" maxlength="255" class="textinput textInput form-control" id="id_guardian_profession" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="box-subheading">Address</h3>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_address" class="form-group">
+                <label for="id_address" class="requiredField"> Address Line<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="address" maxlength="255" class="textinput textInput form-control" required id="id_address" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_country" class="form-group">
+                <label for="id_country" class="requiredField"> Country<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="country" class="select form-control" required id="id_country">
+                        <option value="" selected>---------</option>
+
+                        <option value="india">India</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_state" class="form-group">
+                <label for="id_state" class="requiredField"> State<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="state" class="select form-control" required id="id_state">
+                        <option value="" selected>---------</option>
+                        <option value="rajasthan">Rajasthan</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_city" class="form-group">
+                <label for="id_city" class="requiredField"> City<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <select name="city" class="select form-control" required id="id_city">
+                        <option value="" selected>---------</option>
+                        <option value="ajmer">Ajmer</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="kota">Kota</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_pincode" class="form-group">
+                <label for="id_pincode" class="requiredField"> Pincode<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="pincode" maxlength="6" class="textinput textInput form-control" required id="id_pincode" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="box-subheading">Education Details</h3>
+    <div class="divider"></div>
+    <h3 class="box-subheading" style="color: #e31d23!important;">10<sup>th</sup></h3>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_b10" class="form-group">
+                <label for="id_b10" class="requiredField"> Board<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="b10" maxlength="255" class="textinput textInput form-control" required id="id_b10" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_s10" class="form-group">
+                <label for="id_s10" class="requiredField"> School<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="s10" maxlength="255" class="textinput textInput form-control" required id="id_s10" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_per10" class="form-group">
+                <label for="id_per10" class="requiredField"> Percentage/Grade<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="per10" maxlength="255" class="textinput textInput form-control" required id="id_per10" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_p10" class="form-group">
+                <label for="id_p10" class="requiredField"> Place<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="p10" maxlength="255" class="textinput textInput form-control" required id="id_p10" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_pas10" class="form-group">
+                <label for="id_pas10" class="requiredField"> Passing Year<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="number" name="pas10" min="1990" class="numberinput form-control" required id="id_pas10" />
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+    <h3 class="box-subheading" style="color: #e31d23!important;">12<sup>th</sup></h3>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_b12" class="form-group">
+                <label for="id_b12" class="requiredField"> Board<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="b12" maxlength="255" class="textinput textInput form-control" required id="id_b12" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_s12" class="form-group">
+                <label for="id_s12" class="requiredField"> School<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="s12" maxlength="255" class="textinput textInput form-control" required id="id_s12" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_sub12" class="form-group">
+                <label for="id_sub12" class="requiredField"> Percentage/Grade<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="sub12" maxlength="255" class="textinput textInput form-control" required id="id_sub12" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="div_id_per12" class="form-group">
+                <label for="id_per12" class="requiredField"> Subject/Area<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="per12" maxlength="255" class="textinput textInput form-control" required id="id_per12" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_p12" class="form-group">
+                <label for="id_p12" class="requiredField"> Place<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="text" name="p12" maxlength="255" class="textinput textInput form-control" required id="id_p12" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_pas12" class="form-group">
+                <label for="id_pas12" class="requiredField"> Passing Year<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="number" name="pas12" min="1990" class="numberinput form-control" required id="id_pas12" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="box-subheading">Attachments</h3>
+    <div class="divider"></div>
+    <div class="row" style="margin-bottom: 1em;">
+        <div class="col">
+            <div id="div_id_photo" class="form-group">
+                <label for="id_photo" class="requiredField"> Photo<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="file" name="photo" class="clearablefileinput form-control-file" required id="id_photo" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_ms10" class="form-group">
+                <label for="id_ms10" class="requiredField"> Mark Sheet of 10th<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="file" name="ms10" class="clearablefileinput form-control-file" required id="id_ms10" />
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="div_id_ms12" class="form-group">
+                <label for="id_ms12" class="requiredField"> Mark Sheet/Admit Card of 12th<span class="asteriskField">*</span> </label>
+
+                <div class="">
+                    <input type="file" name="ms12" class="clearablefileinput form-control-file" required id="id_ms12" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div id="div_id_agree" class="form-check">
+            <input type="checkbox" name="agree" class="checkboxinput form-check-input" required id="id_agree" />
+
+            <label for="id_agree" class="form-check-label requiredField">
+                I hereby declare that all the information furnished in the admisson form are true to the best of my knowledge. The required fees will be deposited at college fee counter.<span class="asteriskField">*</span>
+            </label>
+        </div>
+    </div>
+     <div class="g-recaptcha" data-sitekey="6LcjQSUfAAAAAKTxWzhCebv_AsEYXPvOo0N9EKbU"></div>
+    <div class="form-group" style="display: flex;justify-content: center;align-items: center;">
+        <input type="submit" class="btn-sub" style="" />
+           
+    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

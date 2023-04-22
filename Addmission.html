@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Informatics College</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="College, Rahata, IT College, Lions Marga, college in Rahata, ahmednagarIT">
+	<meta name="author" content="Sai Creation Team">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="javascript/js.js="></script>
+
+</head>
+
+<body>
+	<header>
+		<div class=" head">
+			<img src="images/logo.jpg" alt="logo" class="img-logo">
+			<h2 class="fw-bolder text">SHRI SAI INFOTECH COLLEGE RAHATA</h2>
+	
+		</div>
+		<nav class="navbar navbar-expand-lg text-bg-primary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item a">
+							<a class="nav-link c" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="aboutus.html">About Us</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="course.html">Course</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link n" href="Addmission.html">Addmission</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="https://www.w3schools.com/">Useful Link</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="Event.html">Event</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="login.html">Login</a>
+						</li>
+						<li class="nav-item a">
+							<a class="nav-link c" href="index.html">Back Home</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search anything..."
+							onclick="window.location.href='search.html'" aria-label="Search">
+						<button class="btn text-bg-info" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+	<br>
+	<div class="slideshow-container" id="img">
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">01 / 05</div>
+			<img src="images/New folder/a.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">02 / 05</div>
+			<img src="images/New folder/b.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">03 / 05</div>
+			<img src="images/New folder/c.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">04 / 05</div>
+			<img src="images/New folder/d.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">04 / 05</div>
+			<img src="images/New folder/e.jpg">
+		</div>
+
+	</div>
+
+	<div style="text-align:center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("iambrpslides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+		}
+	</script>
+	<br>
+
+	<script type="text/javascript">
+		document.title = "Home";
+	</script>
+
+
+	<script src="scripts/slider.js"></script>
+	<div class="container-fluid d-md-flex">
+		<div class=" one">
+			<div class="p-4 b">
+				<h3><a href="#" title="My First Post" id="c">Shri Sai Infotech </a> </h3>
+				<p class="post-info">ADMISSION PROCESS</p>
+				<h4>Eligibility for Admission:</h4>
+				<p>Applicants for the degree course should have passed the Higher Secondary Examination (XII Std.,)
+					under the 10 plus 2 pattern.English is the medium of instruction for all the courses of study.
+				</p>
+				<h4>How to Apply:</h4>
+				<p>Purchase the Information Brochure and Application Form from Star Infotech College by paying INR
+					500 in
+					cash at the counseling room Or An Applicant provisionally selected for admission will be called
+					for an
+					interview with the Principal. The parent or guardian should be present at the time of interview.
+					A call for the
+					interview does not necessarily ensure admission. At the time of interview the candidate should
+					produce all
+					the relevant certificates in original. Selected students are advised to keep with them
+					sufficient number of
+					true copies of their original certificates. The original certificates will not be returned to
+					them before the
+					completion of their course of study.</p>
+			</div>
+
+			<div class="p-4 b">
+				<h3><a href="#" title="Pathway Programme" id="c">Pathway Programme</a> </h3>
+				<p class="post-info">This post is written by Sai Creation Team</p>
+				<p>We plan for quality higher education programmes with complete progression pathway for you - from
+					Foundation program up to Postgraduate degree level by the universities in Delhi and Mumbai.
+
+					Our distinguished Academic and Examination Board also sets the academic and examination
+					standards of Informatics Academy's programmes.
+
+					We make learning exclusive for you.
+					We know everyone has different learning needs and lifestyles. We have learning modes ranging
+					from traditional classroom learning, to e-learning and a combination of both to accommodate to
+					different learning patterns.
+
+					Our holistic education programme places equal emphasis on both academic and non-academic,
+					co-curricular activities. We strive to provide learning and support services, as well as a
+					conducive environment for you to learn, live and develop into global thought leaders of
+					tomorrow.
+
+					We focus in giving you the best.
+
+				</p>
+			</div>
+		</div>
+		<div class="p-3">
+			<div class="two">
+				<h3>Join us today!</h3>
+				<p>Embark on an exciting learning journey with Informatics.</p>
+			</div>
+
+			<div class="two">
+				<h3>Your Boardroom Qualification</h3>
+				<p>A Degree to stand out from the crowd…...</p>
+			</div>
+
+			<div class="two">
+				<h4>Online Admission_form for 2023-April Session <a href="Online Form.html" alt="error">Apply
+						Now</a>
+				</h4>
+			</div>
+			<div class="two">
+				<h4>Download Admission_form for 2023-April Session : -
+					<a href="images/admission_form.pdf"
+						alt="error">Download Now</a>
+				</h4>
+				<p>Fast complete your education with informatics and get best Placement Apportunity.</p>
+			</div>
+		</div>
+		</div>
+
+
+		<footer class="text-bg-primary">
+
+			<div class="container-fluid d-md-flex py-4">
+
+				<div class="me-md-auto text-center text-md-start">
+					<div class="copyright">
+						&copy; Copyright <strong><span>ShriSai Infotech Trust</span></strong>. All Rights Reserved
+					</div>
+				</div>
+				<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+				<a href="https://in.linkedin.com/" class="fa fa-linkedin"></a>
+				<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+				<form role="form" name="userForm" novalidate="" class="footer-linkpages ng-pristine ng-valid ng-scope">
+					<div class="container-fluid row_clear noselect">
+
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"></script>
+</body>
+
+</html>
